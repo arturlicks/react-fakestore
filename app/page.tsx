@@ -1,5 +1,5 @@
 import { produto } from "@/types";
-import Card from "./components/card";
+import Card from "../components/card";
 
 export default async function Home() {
   const dados = await fetch("https://fakestoreapi.com/products")
